@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/allergy_labelAllergies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/allergy"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/allergy_buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/allergy_textAllergy"
+        android:layout_marginTop="32dp"
+        android:text="@string/allergy_button_add" />
+
+    <Button
+        android:id="@+id/allergy_buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/allergy_buttonAdd"
+        android:text="@string/allergy_button_finish" />
+
+    <EditText
+        android:id="@+id/allergy_textAllergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/allergy_labelAllergies"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="@string/allergy" />
+
+</RelativeLayout>
